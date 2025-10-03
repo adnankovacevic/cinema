@@ -22,11 +22,11 @@ const MovieDetailsPage = () => {
     }, [movieId]);
 
     if (loading) {
-        return <div className="text-center p-12">Loading...</div>;
+        return <div className="text-center p-12 text-3xl font-bold">Loading...</div>;
     }
 
     if (!movie) {
-        return <div className="text-center p-12 text-red-500">Movie not found.</div>;
+        return <div className="text-center p-12 text-3xl font-bold">Movie not found</div>;
     }
 
     return (
