@@ -1,0 +1,82 @@
+[
+    {
+        "id": 1,
+        "title": "Inception",
+        "year": 2010,
+        "poster": "https://image.tmdb.org/t/p/w500/ljsZTbVsrQSqZgWeep2B1QiDKuh.jpg",
+        "description": "A thief who enters the dreams of others to steal secrets must plant an idea in a target's mind.",
+        "rating": 8.4
+    },
+    {
+        "id": 2,
+        "title": "Interstellar",
+        "year": 2014,
+        "poster": "https://image.tmdb.org/t/p/w500/rAiYTfKGqDCRIIqo664sY9XZIvQ.jpg",
+        "description": "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival.",
+        "rating": 8.3
+    },
+    {
+        "id": 3,
+        "title": "The Dark Knight",
+        "year": 2008,
+        "poster": "https://image.tmdb.org/t/p/w500/qJ2tW6WMUDux911r6m7haRef0WH.jpg",
+        "description": "Batman faces the Joker, a criminal mastermind who wants to plunge Gotham into anarchy.",
+        "rating": 9.0
+    },
+    {
+        "id": 4,
+        "title": "Fight Club",
+        "year": 1999,
+        "poster": "https://image.tmdb.org/t/p/w500/bptfVGEQuv6vDTIMVCHjJ9Dz8PX.jpg",
+        "description": "An insomniac office worker and a soapmaker form an underground fight club that evolves into something bigger.",
+        "rating": 8.8
+    },
+    {
+        "id": 5,
+        "title": "The Matrix",
+        "year": 1999,
+        "poster": "https://image.tmdb.org/t/p/w500/f89U3ADr1oiB1s9GkdPOEpXUk5H.jpg",
+        "description": "A hacker discovers the reality he lives in is a simulation and joins a rebellion against its controllers.",
+        "rating": 8.7
+    },
+    {
+        "id": 6,
+        "title": "Pulp Fiction",
+        "year": 1994,
+        "poster": "https://image.tmdb.org/t/p/w500/vQWk5YBFWF4bZaofAbv0tShwBvQ.jpg",
+        "description": "The lives of two mob hitmen, a boxer, and others intertwine in tales of violence and redemption.",
+        "rating": 8.5
+    },
+    {
+        "id": 7,
+        "title": "Gladiator",
+        "year": 2000,
+        "poster": "https://image.tmdb.org/t/p/w500/ty8TGRuvJLPUmAR1H1nRIsgwvim.jpg",
+        "description": "A betrayed Roman general fights his way back as a gladiator to seek revenge against the emperor.",
+        "rating": 8.5
+    },
+    {
+        "id": 8,
+        "title": "Forrest Gump",
+        "year": 1994,
+        "poster": "https://image.tmdb.org/t/p/w500/saHP97rTPS5eLmrLQEcANmKrsFl.jpg",
+        "description": "The presidencies of Kennedy and Johnson, the Vietnam War, and more unfold from the perspective of a man with a low IQ.",
+        "rating": 8.8
+    },
+    {
+        "id": 9,
+        "title": "The Shawshank Redemption",
+        "year": 1994,
+        "poster": "https://image.tmdb.org/t/p/w500/q6y0Go1tsGEsmtFryDOJo3dEmqu.jpg",
+        "description": "Two imprisoned men bond over years, finding solace and eventual redemption through acts of decency.",
+        "rating": 9.3
+    },
+    {
+        "id": 10,
+        "title": "The Godfather",
+        "year": 1972,
+        "poster": "https://image.tmdb.org/t/p/w500/3bhkrj58Vtu7enYsRolD1fZdja1.jpg",
+        "description": "The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.",
+        "rating": 9.2
+    }
+]
