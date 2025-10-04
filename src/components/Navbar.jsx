@@ -1,10 +1,13 @@
 import { useTheme } from "../context/theme/useTheme"
-import { Moon, Sun } from "lucide-react"
 import Button from "./ui/Button"
 import { Link } from "react-router-dom"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
+import { faMoon, faSun } from '@fortawesome/free-solid-svg-icons'
 
 const Navbar = () => {
     const [theme, setTheme] = useTheme();
+    const iconSize = "xl";
     return (
         <nav className='w-full flex items-center justify-between px-6 lg:px-8 py-2 shadow-2xl'>
             <div className="w-32 sm:w-40">
@@ -23,19 +26,31 @@ const Navbar = () => {
             </div>
             <div className="flex items-center">
                 {/* deprecated icons */}
-                {/* <Button className="bg-transparent text-secondary-foreground px-2 py-0 hover:bg-secondary" asChild>
-                    <Link href="https://github.com/adnankovacevic/cinema-app">
-                        <Github size={20} />
-                    </Link>
+                <Button className="bg-gray-600 mx-2 my-0 cursor-pointer hover:bg-gray-500" asChild>
+                    <a href="https://github.com/adnankovacevic/cinema" target="_blank" rel="noopener noreferrer">
+                        <FontAwesomeIcon icon={faGithub} size={iconSize} />
+                    </a>
                 </Button>
-                <Button className="bg-transparent text-secondary-foreground px-2 py-0 hover:bg-secondary" asChild>
-                    <Link href="https://www.linkedin.com/in/adnankovacevic">
-                        <Linkedin size={20} />
-                    </Link>
-                </Button> */}
-                <Button className={"bg-gray-600 px-2 py-0 hover:bg-gray-500 cursor-pointer"}>
-                    {theme === "light" ? <Moon onClick={() => setTheme("dark")} size={20} /> :
-                        <Sun onClick={() => setTheme("light")} size={20} />}
+                <Button className="bg-gray-600 mx-2 my-0 cursor-pointer hover:bg-gray-500" asChild>
+                    <a href="https://www.linkedin.com/in/adnankovacevic" target="_blank" rel="noopener noreferrer">
+                        <FontAwesomeIcon icon={faLinkedin} size={iconSize} />
+                    </a>
+                </Button>
+                <Button className={"bg-gray-600 mx-2 my-4 hover:bg-gray-500 cursor-pointer"}>
+                    {theme === "light" ?
+                        <FontAwesomeIcon
+                            icon={faMoon}
+                            onClick={() => setTheme("dark")}
+                            size={iconSize}
+                            className="text-white"
+                        /> :
+                        <FontAwesomeIcon
+                            icon={faSun}
+                            onClick={() => setTheme("light")}
+                            size={iconSize}
+                            className="text-white"
+                        />
+                    }
                 </Button>
             </div>
         </nav>
