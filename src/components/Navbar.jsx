@@ -25,7 +25,6 @@ const Navbar = () => {
                 </Link>
             </div>
             <div className="flex items-center">
-                {/* deprecated icons */}
                 <Button className="bg-gray-600 mx-2 my-0 cursor-pointer hover:bg-gray-500" asChild>
                     <a href="https://github.com/adnankovacevic/cinema" target="_blank" rel="noopener noreferrer">
                         <FontAwesomeIcon icon={faGithub} size={iconSize} />

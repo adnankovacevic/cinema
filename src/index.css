@@ -5,6 +5,7 @@
   --font-display: "Satoshi", "sans-serif";
 }
 
+
 @layer base {
 
   *,
@@ -28,4 +29,33 @@
   /* font-family: sans-serif; */
   /* color: #333; */
   /* } */
+}
+
+
+.custom-range-slider {
+  background: #5f5d5d;
+}
+
+.custom-range-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  height: 16px;
+  width: 16px;
+  background-color: #ddd3d4;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.custom-range-slider::-moz-range-thumb {
+  height: 16px;
+  width: 16px;
+  background-color: #5f5d5d;
+  border-radius: 50%;
+  cursor: pointer;
+  border: none;
+}
+
+
+.custom-range-slider::-moz-range-progress {
+  background-color: #5f5d5d;
 }

@@ -3,7 +3,7 @@ import { useParams } from 'react-router-dom';
 import movies from "../data/movies.json"
 
 
-const MovieDetailsPage = () => {
+const MovieDetails = () => {
     const { movieId } = useParams();
     const [movie, setMovie] = useState(null);
     const [loading, setLoading] = useState(true);
@@ -67,4 +67,4 @@ const MovieDetailsPage = () => {
     );
 };
 
-export default MovieDetailsPage;
+export default MovieDetails;

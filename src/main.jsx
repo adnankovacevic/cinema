@@ -5,9 +5,9 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import App from './App.jsx'
 import { ThemeProvider } from './context/theme/ThemeProvider.jsx'
 import "./index.css"
-import ResponsiveMoviesGrid from './components/ResponsiveMoviesGrid.jsx';
-import MovieDetailPage from './components/MovieDetails.jsx';
-import NotFoundPage from './components/NotFoundPage.jsx';
+import Home from './pages/Home.jsx';
+import MovieDetailPage from './pages/MovieDetails.jsx';
+import NotFoundPage from './pages/NotFound.jsx';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -16,7 +16,7 @@ createRoot(document.getElementById('root')).render(
         <App>
 
           <Routes>
-            <Route path="/" element={<ResponsiveMoviesGrid />} />
+            <Route path="/" element={<Home />} />
             <Route path="/movie/:movieId" element={<MovieDetailPage />} />
             <Route path="*" element={<NotFoundPage />} />
           </Routes>
